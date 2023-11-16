@@ -40,6 +40,7 @@ def fetch_data(ticker_symbol):
 # Retrieve data for each ticker
 for ticker in tickers_list:
     data = fetch_data(ticker)
+    data.reset_index(inplace=True) 
     if data is not None:
         historical_data[ticker] = data
 
