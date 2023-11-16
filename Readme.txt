@@ -1,1 +1,1 @@
-Finance Dash
+This project contains a Tableau Dashboard (On development) on IPC data. 
